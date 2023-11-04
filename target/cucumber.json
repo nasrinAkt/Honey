@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can select drop down from auto suggest without select tagname",
+        "description": "",
+        "id": "this-is-a-feature-for-auto-suggest-drop-down;verify-user-can-select-drop-down-from-auto-suggest-without-select-tagname",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2039744800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open \u003c\"URL\"\u003e makemytrip",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Honey_AutoSuggestDropDown.open_makemytrip(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7505939900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify user can select drop down from auto suggest without select tagname",
+            "match": {
+              "location": "Honey_AutoSuggestDropDown.verify_user_can_select_drop_down_from_auto_suggest_without_select_tagname()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag9"
+          }
+        ]
+      }
+    ],
+    "name": "This is a feature for Auto suggest drop down",
+    "description": "",
+    "id": "this-is-a-feature-for-auto-suggest-drop-down",
+    "keyword": "Feature",
+    "uri": "Honey_AutoSuggestDropDown.feature"
+  }
+]
